@@ -1,0 +1,62 @@
+
+.card__container{
+    position:relative;
+    background-color: white;
+    border: none;
+    padding: 2.5rem 1.5rem 1rem;
+    border-radius: 6px;
+}
+.jobtype-info{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 400;
+    color:#6E8098;
+    gap:0.5rem;
+}
+.job__information{
+   
+   
+    display: grid;
+    gap:0.7rem;
+    
+
+    
+
+ 
+
+}
+.logo__container{
+    background-color:gray;
+    position:absolute;
+    top:-20px;
+    left:20px;
+    padding:1rem 0.5rem;
+    max-width: 50px;
+    width:50px;
+    height:50px;
+    max-height: 50px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.job-title
+{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #19202D;
+}
+.job-company{
+    font-size: 1rem;
+    font-weight: 400;
+    color:#6E8098;
+}
+
+.job-country{
+    font-size: 0.87rem;
+    color: #5964E0;
+    font-weight:700;
+    margin-top: 2.5rem;
+    
+    
+}

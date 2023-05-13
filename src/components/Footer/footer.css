@@ -1,0 +1,49 @@
+.footer__container{
+  
+    background-color:white;
+    padding:2rem 0;
+  
+
+}
+.company-details{
+   display: grid;
+   gap:1rem;
+ 
+   justify-content: start;
+
+}
+.footer-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+   
+    align-items: center;
+    
+    margin:0 15rem 0 15rem;
+    
+
+}
+.footer-position{
+    font-size:1.25rem;
+    font-weight:700;
+    color:#19202D;
+
+
+}
+.footer-company{
+    color: #6E8098;
+    font-size:1rem;
+    font-weight: 400;
+}
+
+.btn__container button{
+    padding:1rem 1.5rem;
+    font-size: 1rem;
+    font-weight:700;
+    background-color:#5964E0;
+    color:white;
+    border: none;
+    border-radius: 5px;
+
+}

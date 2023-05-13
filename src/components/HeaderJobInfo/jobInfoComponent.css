@@ -1,0 +1,49 @@
+.JobInfoComponent__container{
+    display: grid;
+    grid-template-columns: 8.75rem 2fr 1fr;
+
+  margin:-4rem 15rem 0 15rem;
+  height:140px;
+
+    
+}
+.company-name{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.jobinfo-details{
+    display: grid;
+    gap:0.7rem;
+    padding:2rem;
+    background-color: white;
+    
+}
+.company-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.company-link button{
+    padding:1rem 3rem;
+    color:#5964E0;
+    background-color:#F2F2F2;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+.company-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.company-site{
+    color: #6E8098;
+    font-weight:400;
+}

@@ -1,0 +1,9 @@
+.navbar__container{
+    background-image:url("../../assets/desktop/bg-pattern-header.svg");
+    display: flex;
+    justify-content: space-between;
+    height:160px;
+    padding:1rem 7rem 3rem;
+    border-bottom-left-radius: 50px;
+    color:white;
+}

@@ -1,0 +1,9 @@
+.MainContent__container{
+    padding:2rem 6rem;
+    margin-top:50px;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1rem;
+    row-gap: 3rem;
+}
