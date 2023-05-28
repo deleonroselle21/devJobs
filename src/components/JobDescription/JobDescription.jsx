@@ -57,7 +57,7 @@ const JobDescription = () => {
 
 
     return (
-        <div className='jobDesctiption__container'>
+        <div className='jobDesctiption__container container '>
             <div className='jobDescription__header'>
                 <div className='jobtype-info'>
                     <p>{newdata.postedAt}</p>

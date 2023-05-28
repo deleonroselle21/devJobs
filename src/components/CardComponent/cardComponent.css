@@ -3,7 +3,7 @@
     position:relative;
     background-color: white;
     border: none;
-    padding: 2.5rem 1.5rem 1rem;
+    padding: 2.5rem 1.5rem 2rem;
     border-radius: 6px;
 }
 .jobtype-info{
@@ -60,3 +60,14 @@
     
     
 }
+
+@media  (max-width: 319px) {
+    .card__container{
+      
+
+   
+        
+
+        
+    }
+    }

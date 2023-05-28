@@ -46,7 +46,15 @@ const JobInfoComponent = (props) => {
   return (
 
     <div className='JobInfoComponent__container'>
+    
+         <div className='jobinfo__logo__container' style={{backgroundColor:newdata.logoBackground}}>
+            <img src={newdata.logo}></img>
+        </div>
+   
+    
+
         <div className='company-name' style={{backgroundColor:newdata.logoBackground}}><img src={newdata.logo} alt="logo" /></div>
+     
         <div className='jobinfo-details'>
             <p className='company-title'>{newdata.companyName}</p>
             <p className='company-site'>{newdata.website}</p>
