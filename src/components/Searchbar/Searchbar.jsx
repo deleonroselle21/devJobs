@@ -10,7 +10,7 @@ const postsPerPage = 12;
 let arrayForHoldingPosts = [];
 
 
-export const Searchbar = () => {
+export const Searchbar = (props) => {
     const [searchText, setSearchText] = useState({
         company: "",
         location: "",
@@ -220,8 +220,8 @@ export const Searchbar = () => {
 
     return (
         <div>
-            <div className='container searchbar__container'>
-                <div className='search__field'><img src={IconSearch}></img> <input type="text" name="company" id="" onChange={handleSearchChange} placeholder='Filter by title,companies,expertise etc...' /></div>
+            <div className={`container searchbar__container ${props.theme}`}>
+                <div className={`search__field ${props.theme}`}><img src={IconSearch}></img> <input type="text" name="company" id="" onChange={handleSearchChange} placeholder='Filter by title,companies,expertise etc...' /></div>
                 <div className='search__field location-field'><img src={IconLocation}></img>
 
                     <select name="location" onChange={handleLocationChange} id="" >
@@ -296,7 +296,7 @@ export const Searchbar = () => {
             </div>
 
 
-            <MainContent key={data.id} dataItem={filteredData} searchText={searchText.company} jobs={filteredData} />
+            <MainContent key={data.id} dataItem={filteredData} searchText={searchText.company} theme={props.theme} jobs={filteredData} />
            <div className='loadmore__container'>
        {arrayForHoldingPosts.length<data.length&&  <button onClick={handleShowMorePosts}>Load more</button>}
     

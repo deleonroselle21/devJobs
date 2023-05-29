@@ -12,6 +12,21 @@
 
     
 }
+
+.JobInfoComponent__container.dark .jobinfo-details,
+.JobInfoComponent__container.dark .company-link
+{
+    background-color:#19202D;
+
+}
+.JobInfoComponent__container.dark .jobinfo-details .company-title{
+    color:white;
+}
+
+.JobInfoComponent__container.dark .company-link button{
+    background-color:#6779903b;
+    color:white;
+}
 .company-name{
     background-color: yellow;
     display: flex;

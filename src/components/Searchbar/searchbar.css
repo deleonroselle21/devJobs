@@ -13,7 +13,31 @@ input,select{
     height:50px;
    
     border: none;
+    color:#6E8098;
   
+}
+
+.dark{
+    background-color:transparent;
+}
+.searchbar__container.dark{
+    background-color: transparent;
+}
+
+.searchbar__container.dark .search__field {
+    background-color: #19202D;
+}
+.searchbar__container.dark .search__field select{
+    background-color: #19202D;
+}
+.searchbar__container.dark .search__fieldButton{
+    background-color: #19202D;
+}
+.search__field.dark input {
+    background-color: #19202D;
+}
+.search__fieldButton label{
+    color:#6E8098;
 }
 input[type=text],select{
     width:100%;
@@ -32,7 +56,7 @@ label{
     /*padding-left:1rem;*/
     padding:0.4rem 1rem;
 
-    border-right: 1px solid lightgray;
+    border-right: 1px solid #6E8098
 
 
 
@@ -123,7 +147,9 @@ border-radius: 6px;
    
 
 }
-
+.dark .modal-content{
+    background-color:#19202D;
+}
 .long-text{
     font-size: 0.8rem;
 }

@@ -10,6 +10,9 @@
     min-width: 600px;
     
 }
+.dark{
+    background-color: azure;
+}
 /*mobile*/
 @media (max-width: 480px) {
     .MainContent__container{

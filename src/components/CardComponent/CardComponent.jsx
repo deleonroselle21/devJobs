@@ -22,7 +22,7 @@ export const CardComponent = (props) => {
   
   return (
  
-    <div className='card__container' onClick={handleClick}>
+    <div className={`card__container ${props.theme}`} onClick={handleClick}>
         <div className='logo__container' style={{backgroundColor:props.logoBackground}}>
             <img src={props.logo}></img>
         </div>

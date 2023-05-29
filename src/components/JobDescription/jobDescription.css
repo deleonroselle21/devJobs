@@ -54,6 +54,14 @@ li{
     padding-left:20px;
 }
 
+.jobDesctiption__container.dark{
+    background-color: #19202D;
+}
+.jobDesctiption__container.dark .job-title-description,
+.jobDesctiption__container.dark h1
+{
+color: white;
+}
 
 @media  (max-width: 319px) {
     .jobDesctiption__container{

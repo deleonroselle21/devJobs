@@ -45,7 +45,7 @@ const JobInfoComponent = (props) => {
     
   return (
 
-    <div className='JobInfoComponent__container'>
+    <div className={`JobInfoComponent__container ${props.theme}`}>
     
          <div className='jobinfo__logo__container' style={{backgroundColor:newdata.logoBackground}}>
             <img src={newdata.logo}></img>

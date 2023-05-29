@@ -4,7 +4,7 @@ import data from '../../data.json'
 import { useParams, useState } from 'react-router';
 
 
-const JobDescription = () => {
+const JobDescription = (props) => {
 
     let { id } = useParams();
     // const [position,setPosition]=React.useState("");
@@ -57,7 +57,7 @@ const JobDescription = () => {
 
 
     return (
-        <div className='jobDesctiption__container container '>
+        <div className={`jobDesctiption__container container ${props.theme}`}>
             <div className='jobDescription__header'>
                 <div className='jobtype-info'>
                     <p>{newdata.postedAt}</p>

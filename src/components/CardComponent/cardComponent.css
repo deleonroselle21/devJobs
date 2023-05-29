@@ -40,6 +40,12 @@
     align-items: center;
     justify-content: center;
 }
+body .dark{
+    background-color: #19202D;
+}
+body .dark .job-title{
+    color:white;
+}
 .job-title
 {
     font-size: 1.25rem;
@@ -50,6 +56,12 @@
     font-size: 1rem;
     font-weight: 400;
     color:#6E8098;
+}
+.card__container + .dark{
+    background-color: #19202D;
+}
+.card__container + .dark .job-title{
+    color:white;
 }
 
 .job-country{

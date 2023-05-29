@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import './footer.css'
 import data from '../../data.json'
 
-const Footer = () => {
+const Footer = (props) => {
     let { id } = useParams();
 
     let position, companyName;
@@ -30,7 +30,7 @@ const Footer = () => {
         }
     });
     return (
-        <section className="footer__container">
+        <section className={`footer__container ${props.theme}`}>
             <div className='footer-details'>
                 <div className='company-details'>
                     <p className='footer-position'>{newdata.position}</p>

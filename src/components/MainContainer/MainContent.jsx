@@ -25,7 +25,7 @@ console.log(displayData);
 
       {/*  {props.searchText===""?data.map(item=> <CardComponent key={item.id} id={item.id} logo={item.logo} company={item.company} logoBackground={item.logoBackground} position={item.position} postedAt={item.postedAt} contract={item.contract} location={item.location} />):displayData.map(item=> <CardComponent key={item.id} id={item.id} logo={item.logo} company={item.company} logoBackground={item.logoBackground} position={item.position} postedAt={item.postedAt} contract={item.contract} location={item.location} />)}*/}
     
-      {props.jobs.map((item,i) => <CardComponent key={i} id={item.id} logo={item.logo} company={item.company} logoBackground={item.logoBackground} position={item.position} postedAt={item.postedAt} contract={item.contract} location={item.location} />)}
+      {props.jobs.map((item,i) => <CardComponent key={i} id={item.id} theme={props.theme} logo={item.logo} company={item.company} logoBackground={item.logoBackground} position={item.position} postedAt={item.postedAt} contract={item.contract} location={item.location} />)}
      {/*  {[displayData].map(item=> <CardComponent key={item.id} id={item.id} logo={item.logo} company={item.company} logoBackground={item.logoBackground} position={item.position} postedAt={item.postedAt} contract={item.contract} location={item.location} />)}*/}
        
       

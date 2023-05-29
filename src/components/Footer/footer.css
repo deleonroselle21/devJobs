@@ -48,6 +48,12 @@
     border-radius: 5px;
 
 }
+.footer__container.dark{
+    background-color: #19202D;
+}
+.footer__container.dark .footer-position{
+    color:white;
+}
 
 
 @media (max-width: 600px) {
