@@ -257,7 +257,7 @@ export const Searchbar = (props) => {
 
                             {/* Modal content */}
                             <div className="modal-content">
-                                <span className="close" onClick={closeModal} >&times;</span>
+                                {/*<span className="close" onClick={closeModal} >&times;</span>*/}
 
                                 <div className='search__field location-modal'><img src={IconLocation}></img>
 

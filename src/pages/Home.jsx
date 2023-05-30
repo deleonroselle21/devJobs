@@ -3,44 +3,17 @@ import Navbar from '../components/Navbar/Navbar'
 import { Searchbar } from '../components/Searchbar/Searchbar'
 import { MainContent } from '../components/MainContainer/MainContent'
 
-const Home = () => {
-  const [theme, setTheme] = useState('light');
-  const [checkboxValue,setCheckBox]=useState();
-  
-  const handleCheckBox=(event)=>{
-    
-    setCheckBox(preValue=>!preValue)
-    console.log(checkboxValue);
-  }
-  
-
-  const toggleTheme = (event) => {
-
-    setCheckBox(preValue=>event.target.checked)
-    console.log(checkboxValue);
-
-    if (checkboxValue) {
-      setTheme('light');
-    } else {
-      setTheme('dark');
-    }
-    /*
-    if (theme === 'light') {
-      setTheme('dark');
-    } else {
-      setTheme('light');
-    }
-    */
-    console.log(theme)
-  };
-
+const Home = (props) => {
+ /*
   useEffect(() => {
-    document.body.className = theme;
-  }, [theme]);
+    document.body.className = props.theme;
+
+  }, [props.theme]);
+  */
   return (
     <div>
-    <Navbar theme={theme} handleTheme={toggleTheme} onChange={handleCheckBox} checked={checkboxValue}/>
-     <Searchbar theme={theme}/>
+   {/* <Navbar theme={theme} handleTheme={toggleTheme} onChange={handleCheckBox} checked={checkboxValue}/>*/}
+     <Searchbar theme={props.theme}/>
     {/* <MainContent />*/}
     </div>
   )

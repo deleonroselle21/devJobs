@@ -9,6 +9,7 @@
     align-items: center;
 
 }
+
 input,select{
     height:50px;
    
@@ -38,6 +39,12 @@ input,select{
 }
 .search__fieldButton label{
     color:#6E8098;
+}
+input[type=text]:focus{
+    outline: 0;
+}
+select:focus{
+    outline: 0;
 }
 input[type=text],select{
     width:100%;
@@ -116,6 +123,7 @@ border-radius: 6px;
 }
 .FilterIcon{
     display: none;
+
 }
 .search-Icon{
    
@@ -216,6 +224,7 @@ border-radius: 6px;
    display: none;/* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
+  
  
     left: 0;
     top: 0;
@@ -229,9 +238,11 @@ border-radius: 6px;
   /* Modal Content/Box */
   .modal-content {
     background-color: #fefefe;
+
     margin: 15% auto; /* 15% from the top and centered */
     padding: 1rem 1.5rem 1.5rem 1.5rem;
-    border: 1px solid #888;
+    border-radius: 6px;
+  /*  border: 1px solid #888;*/
     width: 80%; /* Could be more or less, depending on screen size */
   }
   
@@ -284,6 +295,7 @@ border-radius: 6px;
     display: flex;
     width:100%;
     justify-content: end;
+    padding-right: 1rem;
 }
 .search-Icon{
     display: block;

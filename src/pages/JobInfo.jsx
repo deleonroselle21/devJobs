@@ -5,8 +5,8 @@ import JobDescription from '../components/JobDescription/JobDescription';
 import Navbar from '../components/Navbar/Navbar';
 
 
-const JobInfo = () => {
-
+const JobInfo = (props) => {
+/*
   const [theme, setTheme] = useState('light');
   const [checkboxValue,setCheckBox]=useState();
   
@@ -33,19 +33,21 @@ const JobInfo = () => {
     } else {
       setTheme('light');
     }
-    */
+    
     console.log(theme)
   };
+  
 
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
+  */
   return (
     <div>
-        <Navbar theme={theme} handleTheme={toggleTheme} onChange={handleCheckBox} checked={checkboxValue}/>
-        <JobInfoComponent title="anoba" theme={theme}/>
-        <JobDescription theme={theme}/>
-        <Footer theme={theme}/>
+     {/*   <Navbar theme={theme} handleTheme={toggleTheme} onChange={handleCheckBox} checked={checkboxValue}/>*/}
+        <JobInfoComponent title="anoba" theme={props.theme}/>
+        <JobDescription theme={props.theme}/>
+        <Footer theme={props.theme}/>
 
     </div>
   )
