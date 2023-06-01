@@ -49,6 +49,7 @@ function App() {
 
   return (
     <HashRouter>
+      <div>
     <Navbar theme={theme} handleTheme={toggleTheme} onChange={handleCheckBox} checked={checkboxValue} />
       <Routes>
 
@@ -67,6 +68,7 @@ function App() {
       </Route>
   */}
       </Routes>
+      </div>
     </HashRouter>
 
 
