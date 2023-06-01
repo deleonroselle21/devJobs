@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { MainContent } from './components/MainContainer/MainContent';
 import Navbar from './components/Navbar/Navbar';
 import { Searchbar } from './components/Searchbar/Searchbar';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import NoPage from './pages/NoPage';
 import JobInfo from './pages/JobInfo';
@@ -48,7 +48,7 @@ function App() {
 
 
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Navbar theme={theme} handleTheme={toggleTheme} onChange={handleCheckBox} checked={checkboxValue} />
       <Routes>
 
@@ -67,7 +67,7 @@ function App() {
       </Route>
   */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
 
 
   );
