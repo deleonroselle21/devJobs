@@ -1,19 +1,31 @@
 {
   "files": {
-    "main.css": "/devJobs/static/css/main.4b99aa30.css",
-    "main.js": "/devJobs/static/js/main.830fc2ce.js",
+    "main.css": "/devJobs/static/css/main.15519a48.css",
+    "main.js": "/devJobs/static/js/main.bcd85f4f.js",
+    "static/media/scoot.svg": "/devJobs/static/media/scoot.345a4bfd15e6f589d568.svg",
+    "static/media/pomodoro.svg": "/devJobs/static/media/pomodoro.a786dc9a9ad4e2ead3b2.svg",
+    "static/media/vector.svg": "/devJobs/static/media/vector.d9c0112ac6f7293a78de.svg",
+    "static/media/crowdfund.svg": "/devJobs/static/media/crowdfund.1aee1724815801f6f419.svg",
     "static/media/icon-sun.svg": "/devJobs/static/media/icon-sun.9422c1533b01125b84568d2f0c6212b9.svg",
+    "static/media/pod.svg": "/devJobs/static/media/pod.3c73e3778043bb439ba8.svg",
     "static/media/bg-pattern-header.svg": "/devJobs/static/media/bg-pattern-header.ea1134f14277d29c5f40.svg",
+    "static/media/coffeeroasters.svg": "/devJobs/static/media/coffeeroasters.70ce77dac433114a8f88.svg",
+    "static/media/typemaster.svg": "/devJobs/static/media/typemaster.a31ba9597141de8f1fa9.svg",
     "index.html": "/devJobs/index.html",
+    "static/media/creative.svg": "/devJobs/static/media/creative.af94119f448ec5663445.svg",
+    "static/media/mastercraft.svg": "/devJobs/static/media/mastercraft.a98383d02483419b7348.svg",
+    "static/media/blogr.svg": "/devJobs/static/media/blogr.68f4bc4bb85b4aa267d0e1cb06775dc8.svg",
     "static/media/icon-moon.svg": "/devJobs/static/media/icon-moon.038e80ca9ba2097f62576a3abd76df81.svg",
+    "static/media/maker.svg": "/devJobs/static/media/maker.b6f34b7909e60ded181a.svg",
+    "static/media/officelite.svg": "/devJobs/static/media/officelite.34773de614b80abc0b9a05e4e0329ff3.svg",
     "static/media/icon-filter.svg": "/devJobs/static/media/icon-filter.2471816db9fac72cf5a8944825113ff8.svg",
     "static/media/icon-location.svg": "/devJobs/static/media/icon-location.325ff3d99912e5505f5cf31f67518b0c.svg",
     "static/media/icon-search.svg": "/devJobs/static/media/icon-search.09900c2e3c8743161876925423fc7460.svg",
-    "main.4b99aa30.css.map": "/devJobs/static/css/main.4b99aa30.css.map",
-    "main.830fc2ce.js.map": "/devJobs/static/js/main.830fc2ce.js.map"
+    "main.15519a48.css.map": "/devJobs/static/css/main.15519a48.css.map",
+    "main.bcd85f4f.js.map": "/devJobs/static/js/main.bcd85f4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b99aa30.css",
-    "static/js/main.830fc2ce.js"
+    "static/css/main.15519a48.css",
+    "static/js/main.bcd85f4f.js"
   ]
 }
