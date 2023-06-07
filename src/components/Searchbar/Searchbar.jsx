@@ -19,7 +19,7 @@ export const Searchbar = (props) => {
     });
 
     const [jobs, setJobs] = useState(data);
-    let [filteredData, setFilteredData] = useState(data);
+    const [filteredData, setFilteredData] = useState(data);
     const [next, setNext] = useState(12);
     const [modal, setModal] = useState("none");
  

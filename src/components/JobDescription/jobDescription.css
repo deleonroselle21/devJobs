@@ -1,8 +1,13 @@
 .jobDesctiption__container{
-    margin:1rem 15rem 5rem 15rem;
+   /* margin:1rem 15rem 5rem 15rem;*/
+    margin-left:15rem;
+    margin-right:15rem;
+    margin-top:1rem;
+    margin-bottom: 5rem;
     background-color: white;
     padding: 3rem;
-    min-width:510px;
+    /*min-width:510px;*/
+    min-width: 273px;
 }
 .main-jobDescription{
     display: grid;
@@ -62,7 +67,7 @@ li{
 {
 color: white;
 }
-
+/*
 @media  (max-width: 319px) {
     .jobDesctiption__container{
         margin:1rem 2rem 5rem 2rem;
@@ -70,16 +75,15 @@ color: white;
     }
     }
 
-
+*/
 
 @media  (max-width: 600px) {
     .jobDesctiption__container{
     margin-left:2rem;
    
     margin-right:2rem;
-
   
-    width:100%;
+  /*  width:100%;*/
     
   
      

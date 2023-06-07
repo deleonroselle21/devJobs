@@ -14,11 +14,13 @@ console.log(displayData);
 
 
 
+
 },[props.dataItem])
 
 */
 
 //console.log(props.jobs);
+
   return (
 
     <div className='MainContent__container'>

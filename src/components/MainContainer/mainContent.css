@@ -7,7 +7,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap:1rem;
     row-gap: 3rem;
-    min-width: 600px;
+    /*min-width: 600px;*/
     
 }
 .dark{

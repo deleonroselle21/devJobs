@@ -8,13 +8,14 @@
     border-bottom-left-radius: 50px;
 
     width:100vw;
-    min-width: 600px;
+   /* min-width: 600px;*/
     
 }
 .logo{
     width:100%;
     color:white;
     font-size: 1rem;
+    cursor: pointer;
  
 }
 .dark-mode{
@@ -22,6 +23,7 @@
     width:100%;
     justify-content: end;
     gap:0.5rem;
+    padding-top:0.5rem;
    
 }
 

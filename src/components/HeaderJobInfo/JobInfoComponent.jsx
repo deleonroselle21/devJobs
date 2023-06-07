@@ -2,6 +2,8 @@ import React from 'react';
 import './jobInfoComponent.css'
 import { useParams,useState } from 'react-router';
 import data from '../../data.json'
+import image from '../../assets/logos/blogr.svg'
+
 import JobDescription from '../JobDescription/JobDescription';
 
 const JobInfoComponent = (props) => {
@@ -30,7 +32,7 @@ const JobInfoComponent = (props) => {
             position:item.position,
             companyName:item.company,
             website:item.website,
-            logo:"../../"+item.logo,
+            logo:item.logo,
             logoBackground:item.logoBackground
 
 
@@ -40,7 +42,7 @@ const JobInfoComponent = (props) => {
    //return setPosition(item.position);
    } });
    console.log(retrievedData);
-   console.log(position);
+   console.log(newdata.logo);
 
     
   return (
@@ -48,12 +50,12 @@ const JobInfoComponent = (props) => {
     <div className={`JobInfoComponent__container ${props.theme}`}>
     
          <div className='jobinfo__logo__container' style={{backgroundColor:newdata.logoBackground}}>
-            <img src={newdata.logo}></img>
+            <img src={require('../../assets/logos/'+newdata.logo)}></img>
         </div>
    
     
 
-        <div className='company-name' style={{backgroundColor:newdata.logoBackground}}><img src={newdata.logo} alt="logo" /></div>
+        <div className='company-name' style={{backgroundColor:newdata.logoBackground}}><img src={require('../../assets/logos/'+newdata.logo)}></img></div>
      
         <div className='jobinfo-details'>
             <p className='company-title'>{newdata.companyName}</p>

@@ -57,7 +57,7 @@ const JobDescription = (props) => {
 
 
     return (
-        <div className={`jobDesctiption__container container ${props.theme}`}>
+        <div className={`jobDesctiption__container ${props.theme}`}>
             <div className='jobDescription__header'>
                 <div className='jobtype-info'>
                     <p>{newdata.postedAt}</p>
@@ -83,7 +83,7 @@ const JobDescription = (props) => {
                 <div className='requirements-info'>
                 <ul>
                     {newdata.requirementItems.map((item) => (
-                        <li>{item}</li>
+                        <li key={item}>{item}</li>
                     ))}
                 </ul>
                 </div>
@@ -94,7 +94,7 @@ const JobDescription = (props) => {
                 <div className='requirements-info'>
                 <ol>
                     {newdata.roleItems.map((item) => (
-                        <li>{item}</li>
+                        <li key={item}>{item}</li>
                     ))}
                 </ol>
                 </div>
